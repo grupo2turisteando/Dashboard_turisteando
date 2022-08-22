@@ -33,7 +33,7 @@ useEffect(() => {
 								{lastProduct.map((product, i)=>{
 									return (
 								<div  key={i} className="">
-									<div className="last">
+									<div className="last text-center">
 										<ul>
 											<li><img className="img-fluid px-3 px-sm-4 mt-3 mb-4" src={"http://localhost:5020/images/"+product.package_image}></img></li>
 											<li>id: {product.package_id}</li>

@@ -12,7 +12,7 @@ function Estadisticas(props) {
     <>              
         {props.estadisticas.map((estadistica, i)=>{
                 return(
-            <div key={i} className="col-md-2.5 ml-4 mb-4 "> 
+            <div key={i} className="col-md-2.4 ml-8 mr-3 mb-4 "> 
                 <div  className={`card border-left-${estadistica.borderColor} shadow h-100 py-2`}>
                     <div className="card-body">
                         <div className="row no-gutters align-items-center">
